@@ -57,15 +57,6 @@ const Index = () => {
             Paste Text
           </Button>
         </Box>
-
-        <Box as="footer" bg="blue.100" w="full" p={5} rounded="md" boxShadow="md">
-          <Text fontSize="lg" fontWeight="bold" color="blue.600">
-            Need help? Just ask your AI friend!
-          </Text>
-          <Button leftIcon={<FaHome />} colorScheme="blue" mt={3}>
-            Talk to AI
-          </Button>
-        </Box>
       </VStack>
     </Container>
   );
